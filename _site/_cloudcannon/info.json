@@ -1,0 +1,42 @@
+{
+	"time": "2021-07-14T15:47:40-04:00",
+	"cloudcannon": {
+		"name": "cloudcannon-jekyll",
+		"version": "2.0.0"
+	},
+	"generator": {
+		"name": "jekyll",
+		"version": "4.2.0",
+		"environment": null,
+		"metadata": {
+			"markdown": "kramdown",
+			"kramdown": {"auto_ids": true,"toc_levels": [1,2,3,4,5,6],"entity_output": "as_char","smart_quotes": "lsquo,rsquo,ldquo,rdquo","input": "GFM","hard_wrap": false,"guess_lang": true,"footnote_nr": 1,"show_warnings": false},
+			"commonmark": null
+		}
+	},
+	
+	"collections-config": {"posts": {"output": true,"permalink": "/:categories/:year/:month/:day/:title:output_ext","path": "_posts"},"drafts": {"path": "_drafts"}},
+	"collections": {
+		"drafts": [],"posts": []},
+	"pages": [{"name": "404.html","path": "404.html","url": "/404.html","permalink": "/404.html","layout": "default"},{"name": "index.html","path": "index.html","url": "/","layout": "default","title": "Home"}],
+	"static-pages": [],
+	
+	"base-url": "",
+	
+	
+	
+	
+	
+	"paths": {
+		"uploads": null,
+		"data": "_data",
+		"pages": "",
+		"collections": "",
+		"includes": "_includes",
+		"layouts": "_layouts"
+	},
+	
+	"_select_data": {"twitter": {"username": null,"card": null},"facebook": {"publisher": ""},"social": {"name": null,"links": null}},
+	"defaults": [],
+	"source": ""
+}

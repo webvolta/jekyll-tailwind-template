@@ -1,0 +1,37 @@
+url: ""
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - cloudcannon-jekyll
+  - jekyll-redirect-from
+  - jekyll-postcss
+
+logo: ""
+twitter:
+  username:
+  card:
+facebook:
+  publisher: ""
+social:
+  name:
+  links:
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - yarn.lock
+  - package-lock.json
+  - package.json
+  - README.md
+  - postcss.config.js
+  - purgecss.config.js
+  - tailwind.config.js
+  - webpack.config.js
+  - netlify.toml
+  - bin
+  - .gitignore
+  - _cloudcannon-prebuild.sh
